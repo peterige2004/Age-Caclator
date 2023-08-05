@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+    height: 100vh;
+    padding: 40px 0px;
+}
+
+input{
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid hsl(0, 100%, 67%);
+    height: 45px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 8%);
+}
+
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    width: 700px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom-right-radius: 30%;
+}
+
+input:hover {
+    border: 1px solid hsl(0, 100%, 67%);
+  }
+
+span{
+   color: hsl(259, 100%, 65%);
+}
+
+p{
+    float: right;
+    margin-right: 25%;
+}
+
+.error{
+    color: red;
+
+}
+
+.box input{
+    padding: 14px 10px;
+    width: 110px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    border: 1px solid hsl(0, 1%, 44%);
+    cursor: pointer;
+}
+.codu{
+    height: 3px;
+    width: 500px;
+    background-color: hsl(0, 1%, 44%);
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    color: hsl(0, 0%, 86%);
+    letter-spacing: 2px;
+}
+ 
+.bx{
+    background:hsl(259, 100%, 65%); 
+    font-size: 40px;
+    border-radius: 50%;
+    align-items: center;
+   
+}
+
+.calculate{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.body-container{
+    font-size: 32px;
+    font-family:'Poppins', sans-serif;
+}
+
+.body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box.success input{
+border-color: #0cc470;
+}
+.box.error input{
+border-color: rgb(242,18,18);
+}

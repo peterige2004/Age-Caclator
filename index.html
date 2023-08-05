@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>  
+    <div class="body">
+      <div class="main">
+  <div class="calculate">
+    <div class="box">
+
+      <h4>DAY</h4>
+      <input type="text" id="Day" name="Day" placeholder="DD" required>
+      <div class="error"></div>
+    </div>
+    <div class="box">
+
+        <h4>MONTH</h4>
+        <input type="text" id="Month" name="Month" placeholder="MM" required>
+        <div class="error"></div>
+      </div>
+
+      <div class="box">
+
+        <h4>YEAR</h4>
+        <input type="text" id="Year" name="Year" placeholder="YYYY" required>
+        <div class="error"></div>
+      </div>
+
+      <div class="line">
+        <div class="codu"></div>
+        <i id="codu" class='bx bxs-chevron-down'></i>
+      </div>
+
+  <div class="body-container">
+    <i>
+    <h1><span id="1year">--</span>years</h1>
+    <h1><span id="1month">--</span>Months</h1>
+    <h1><span id="1day">--</span>Days</h1>
+  </i>
+  
+</div>
+</div>
+</div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Peter Adeyemi Ige</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
