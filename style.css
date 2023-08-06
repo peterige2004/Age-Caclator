@@ -70,6 +70,7 @@ p{
     height: 3px;
     width: 500px;
     background-color: hsl(0, 1%, 44%);
+    cursor: pointer;
 }
 .line{
     display: flex;
